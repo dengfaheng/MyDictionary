@@ -1,0 +1,18 @@
+﻿  stdafx.cpp
+  MyDictionary.cpp
+  MyDictionaryDlg.cpp
+MyDictionaryDlg.cpp(119): error C2664: “DWORD GetCurrentDirectoryW(DWORD,LPWSTR)”: 无法将参数 2 从“char [1024]”转换为“LPWSTR”
+  MyDictionaryDlg.cpp(119): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+MyDictionaryDlg.cpp(120): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(90): note: 参见“strcat”的声明
+MyDictionaryDlg.cpp(238): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+MyDictionaryDlg.cpp(248): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+MyDictionaryDlg.cpp(268): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+MyDictionaryDlg.cpp(303): error C2664: “void CWnd::SetWindowTextW(LPCTSTR)”: 无法将参数 1 从“const char [37]”转换为“LPCTSTR”
+  MyDictionaryDlg.cpp(303): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+MyDictionaryDlg.cpp(323): error C2660: “MessageBoxA”: 函数不接受 3 个参数
+MyDictionaryDlg.cpp(353): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: 参见“strcpy”的声明
